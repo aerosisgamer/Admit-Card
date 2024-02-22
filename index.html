@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admit Card</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="find-student center-div-1">
+        <div class="finder dis-flx">
+          <input type="number" name="sr-num" id="roll_number" step="" placeholder="Enter roll number"/>
+          <div>
+            <button onclick="searchStudent()" id="get_data">
+              Get Admit Card
+            </button>
+          </div>
+        </div>
+        <div class="heading dis-flx">
+          <h2>Student Data :</h2>
+        </div>
+        <div class="student dis-flx" id="student_data"></div>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

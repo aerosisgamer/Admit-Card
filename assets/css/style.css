@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.main-container{
+    background-color: black;
+    height: 100vh;
+}
+
+.dis-flx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.center-div-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.find-student{
+    width: 100%;
+}
+
+.finder{
+    margin-bottom: 50px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    width: 30vw;
+    height: 5vh;
+    border: 1.5px solid white;
+    outline: none;
+    background-color: unset;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    background-color: unset;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: -100px 0px 200px 2px white;
+}
+
+.heading{
+    width: 60vw;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.student{
+    margin: auto;
+    width: 40%;
+    justify-content: space-between; 
+}
+
+.student > h2 {
+    font-size: 35px;
+}
+
+.student > p {
+    font-size: 30px;
+}
+
+@media screen and (max-width:500px){
+
+    .finder{
+        display: block;
+        text-align: center;
+    }
+
+    input[type=number] {
+        width: 70vw;
+        margin-bottom: 20px;
+    }
+
+    button:hover {
+        box-shadow: 0px 0px 200px 2px white;
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .student{
+        width: 70%;       
+    }
+}
