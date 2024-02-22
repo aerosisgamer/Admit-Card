@@ -116,7 +116,14 @@ button:hover {
     }
 
     .student{
-        width: 100%;  
-        background-color: aqua;
+        width: 100%;
+    }
+
+    .std-info > h2 {
+        font-size: 35px;
+    }
+
+    .std-info > p {
+        font-size: 30px;
     }
 }
