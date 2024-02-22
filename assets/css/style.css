@@ -23,6 +23,11 @@
     transform: translate(-50%,-50%);
 }
 
+.project-name > h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
 .find-student{
     width: 100%;
 }
