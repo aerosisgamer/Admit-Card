@@ -48,7 +48,7 @@ function searchStudent(){
     if(foundStudent){
         var studentInfo = document.getElementById("student_data");
 
-        studentInfo.innerHTML = `<h2>${foundStudent.roll_no}</h2> <p>${foundStudent.name}</p> <button onclick="downloadAdmitCard('${foundStudent.admit_card_path}')">Download</button>`;
+        studentInfo.innerHTML = `<div class="std-info dis-flx"><h2>${foundStudent.roll_no}</h2><p>${foundStudent.name}</p></div><div class="admit-card-btn dis-flx"><button onclick="downloadAdmitCard('${foundStudent.admit_card_path}')">Download</button></div>`;
     } else { 
         alert("Student Not Found");
     }

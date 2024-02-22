@@ -73,18 +73,26 @@ button:hover {
     margin-bottom: 50px;
 }
 
-.student{
+.std-info{
     margin: auto;
     width: 40%;
-    justify-content: space-between; 
+    gap: 50px;
 }
 
-.student > h2 {
+.std-info > h2 {
+    font-size: 40px;
+}
+
+.std-info > p {
     font-size: 2.5vw;
 }
 
-.student > p {
-    font-size: 2.5vw;
+.std-info {
+    padding: 20px;
+}
+
+.admit-card-btn > button:hover{
+    box-shadow: 0px 0px 200px 2px white;
 }
 
 @media screen and (max-width:500px){
@@ -108,6 +116,7 @@ button:hover {
     }
 
     .student{
-        width: 70%;       
+        width: 100%;  
+        background-color: aqua;
     }
 }
